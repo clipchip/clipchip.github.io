@@ -1,0 +1,41 @@
+
+body { /*
+	background-image: url(../files/background.gif);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed; */
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	font-size:17pt;
+	color: #333;
+	background-color: #FFF;
+}
+
+img.left {
+	position: fixed;
+	max-width: 400px;
+	width: 25%;
+	bottom: 0;
+	left: 0;
+}
+.seriousfont {
+	font-family:monospace;
+}
+
+div.content {
+	max-width: 40%;
+	margin: 0 auto;
+}
+
+@keyframes blink {
+	0%{visibility: hidden;}
+	50%{visibility: hidden;}
+	100%{visibility: visible;}
+}
+
+.blink {
+	animation-name: blink;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+}
+
+
